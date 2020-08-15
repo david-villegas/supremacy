@@ -18,8 +18,12 @@ p{
   font-size: 10px !important;
 }
 section{
-  padding-top: 120px;
+  /* padding-top: 120px; */
   padding-bottom: 30px;
+}
+
+#services{
+  padding-top: 120px;
 }
 
 .service-icon {
@@ -34,6 +38,14 @@ section{
   transition: background-color 0.2s ease;
 }
 
+.service-icon:hover {
+  background-color: #e64818;
+}
 .service-info h3 {
   margin-top: 35px;
+}
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
 }
