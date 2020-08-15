@@ -1,2 +1,2 @@
-# nina
+# Supremacy
 Personal Project
