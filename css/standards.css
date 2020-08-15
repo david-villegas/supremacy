@@ -1,0 +1,110 @@
+/* FUENTES */
+@font-face {
+  font-family: Supercell;
+  src: url(../fonts/Supercell-magic-webfont.ttf);
+}
+
+/* Navbar*/
+.nav-item{
+	margin: 15px;
+	font-weight: 200;
+}
+
+.nav-link{
+	font-size: .7rem;
+}
+.nav-link:hover{
+	border-bottom: 1px solid #fff;
+}
+
+/* Footer Social Icons*/
+footer {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+footer p{
+	font-size: .7rem;
+}
+
+.ft ul {
+	margin : 0;
+	padding : 0;
+	text-align : center;
+}
+.ft ul li {
+	list-style : none outside none;
+	padding-right : 10px;
+	display : inline;
+}
+.ft ul li a {
+	display : inline-block;
+	margin : 0 auto;
+	padding : 7px 11px;
+	text-align : center;
+}
+.ft ul li a:hover {
+  -webkit-transform: scale(1.25); /*Safari y Chrome*/
+  -moz-transform:scale(1.25); /*Firefox */
+  -ms-transform:scale(1.25); /*Opera*/
+  -o-transform:scale(1.25); /*IE 9*/
+  transform: scale(1.25);
+  transition: all 0.5s ease 0s;
+}
+.ft ul li a i {
+	color : white;
+	font-size : 20px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+.ft .pp-facebook:hover i{
+  color: #3b5894;
+}
+.ft .pp-twitter:hover i{
+  color: #1da1f2;
+}
+.ft .pp-instagram:hover i{
+  color: #e67135;
+}
+.ft .pp-google:hover i{
+  color: #dd4b39;
+}
+.ft .pp-linkedin:hover i{
+  color: #006699;
+}
+
+/* Smooth Button*/
+#myBtn.show {
+  bottom: 20px;
+}
+
+#myBtn {
+  width: 40px;
+  height: 45px;
+  position: fixed;
+  bottom: -100px;
+  right: 20px;
+  z-index: 100;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0.3);
+  color: white !important;
+  cursor: pointer;
+  padding: 10px;
+	border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+#myBtn:hover {
+	background-color: #555;
+	transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease 0s;
+}

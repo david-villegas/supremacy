@@ -1,0 +1,39 @@
+body{
+  font-family: Supercell !important;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  font-size: 30px !important;
+}
+
+h3{
+  font-size: 15px !important;
+}
+
+p{
+  font-size: 10px !important;
+}
+section{
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.service-icon {
+  background-color: #ddcf8e;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 36px;
+  height: 90px;
+  line-height: 90px;
+  width: 90px;
+  transition: background-color 0.2s ease;
+}
+
+.service-info h3 {
+  margin-top: 35px;
+}
