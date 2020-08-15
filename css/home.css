@@ -8,6 +8,7 @@ body{
 
 h1{
   font-size: 30px !important;
+  text-align: center !important;
 }
 
 h3{
@@ -16,6 +17,7 @@ h3{
 
 p{
   font-size: 10px !important;
+  text-align: center !important;
 }
 section{
   /* padding-top: 120px; */
@@ -27,7 +29,7 @@ section{
 }
 
 .service-icon {
-  background-color: #ddcf8e;
+  background-color: #343a40;
   border-radius: 4px;
   color: #fff;
   display: inline-block;
@@ -48,4 +50,53 @@ section{
 .card {
   background-color: transparent !important;
   border: none !important;
+}
+
+.social-icons ul{
+  margin : 0;
+  padding : 0;
+  text-align : center;
+}
+
+.social-icons ul li {
+	list-style : none outside none;
+	padding-right : 10px;
+	display : inline;
+}
+.social-icons ul li a {
+  background-color: #343a40;
+  height: 36px;
+  width: 36px;
+	display : inline-block;
+	margin : 0 auto;
+	padding : 5px 10px;
+  text-align : center;
+  border-radius: 25%;
+}
+.social-icons ul li a:hover {
+  -webkit-transform: scale(1.25); /*Safari y Chrome*/
+  -moz-transform:scale(1.25); /*Firefox */
+  -ms-transform:scale(1.25); /*Opera*/
+  -o-transform:scale(1.25); /*IE 9*/
+  transform: scale(1.25);
+  transition: all 0.5s ease 0s;
+}
+.social-icons ul li a i {
+	color : white;
+	font-size : 16px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+
+.card:hover .social-icons ul li a.facebook {
+  background-color: #3b5999 !important;
+}
+
+.card:hover .social-icons ul li a.instagram {
+  background-color: #e67135 !important;
+}
+
+.card:hover .social-icons ul li a.twitter {
+  background-color: #1da1f2 !important;
 }
