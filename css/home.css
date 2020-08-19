@@ -48,6 +48,15 @@ section{
 .service-icon:hover {
   background-color: #e64818;
 }
+
+.service-icon a {
+  color: #fff;
+ }
+
+.service-icon a:hover {
+  color: #fff;
+ }
+
 .service-info h3 {
   margin-top: 35px;
 }
