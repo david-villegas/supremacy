@@ -34,6 +34,7 @@ section{
 }
 
 .service-icon {
+  position: relative;
   background-color: #343a40;
   border-radius: 4px;
   color: #fff;
@@ -43,10 +44,31 @@ section{
   line-height: 90px;
   width: 90px;
   transition: background-color 0.2s ease;
+  overflow: hidden;
+  z-index: 20;
 }
 
-.service-icon:hover {
+.service-icon::after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -90px;
+  opacity: .2;
+  position: absolute;
+  top: -35px;
+  transform: rotate(35deg);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+
+/* .service-icon:hover {
   background-color: #e64818;
+} */
+
+.service-icon:hover::after {
+  left: 145%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .service-icon a {

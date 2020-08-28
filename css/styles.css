@@ -35,8 +35,7 @@ body{
 
 .main__title{
   font-family: Supercell;
-  /* font-size: 110px; */
-  font-weight: 200;
+  font-size: 5vw;
   font-style: normal;
   text-transform: none;
   letter-spacing: -.01em;
@@ -84,10 +83,6 @@ body{
 
 /* Media Query and Mobile Views */
 @media (max-width: 568px){
-  .main__title{
-    font-size: 30px !important;
-    text-align: center;
-  }
   .main__btn{
     margin-left: 0px;
   }
